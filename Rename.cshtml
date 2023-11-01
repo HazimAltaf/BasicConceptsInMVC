@@ -1,0 +1,24 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ControllerWithView</title>
+</head>
+<body>
+    <div> 
+        <h1>Hello , I am from New Controller and ControllerWithView Action Method</h1>
+    </div>
+    <div>
+        @Html.ActionLink("Index", "index", "Employee")
+        @* first-Parameter is DisplayName-----Second-Parameter is Action-Method in Controller----and Third-Parameter is Controller-Name *@
+        @*Above Method is same as Anchor-Tag (<a>)*@
+        @*<a href="~/Employee/Index">Employee - Conntroller With View</a><br />*@
+    </div>
+</body>
+</html>
